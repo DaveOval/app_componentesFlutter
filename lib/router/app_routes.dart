@@ -15,6 +15,7 @@ class AppRoutes{
     MenuOption(route: 'listview2', name: 'Listvie tipo 2', screen: const Listview2Screen(), icon: Icons.list_outlined),
     MenuOption(route: 'alert', name: 'Alertas', screen: const AlertScreen(), icon: Icons.notifications_active_outlined),
     MenuOption(route: 'card', name: 'Tarjetas - cards', screen: const CardScreen(), icon: Icons.calendar_view_day_rounded),
+    MenuOption(route: 'avatar', name: 'Circule Avatar', screen: const AvatarScreen(), icon: Icons.supervised_user_circle_outlined),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes(){
